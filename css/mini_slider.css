@@ -1,0 +1,153 @@
+.banner1 {
+	animation: banner1 28s infinite;
+	background-color: #f5f5f5;
+	background-image: url('../img/restaurant.jpg');
+	background-position: center;
+	background-size: cover;
+	height: calc(50vh - 50px);
+	margin: 0;
+	padding: 0;
+	position: static;
+	margin-top: 1%;
+	transition: all .1s ease-in-out;
+	width: 50%%;
+}
+
+.banner-content1 {
+	align-items: center;
+	background-color: rgb(0, 22, 40, .6);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.banner-content1 h1 {
+	font-size: 40px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.banner-content1 a {
+	border: 1px solid #c8994d;
+	color: #c8994d;
+	padding: 9px 20px;
+	transition: all .3s ease-in-out;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.banner-content1 a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+@keyframes banner1 {
+	0% {
+		background-image: url('../img/restaurant3.jpg');
+	}
+	25% {
+		background-image: url('../img/restaurant3.jpg');
+	}
+	26% {
+		background-image: url('../img/restaurant2.jpg');
+	}
+	50% {
+		background-image: url('../img/restaurant2.jpg');
+	}
+	51% {
+		background-image: url('../img/restaurant1.jpg');
+	}
+	75% {
+		background-image: url('../img/restaurant1.jpg');
+	}
+	76% {
+		background-image: url('../img/restaurant.jpg');
+	}
+	100% {
+		background-image: url('../img/restaurant.jpg');
+	}
+}
+
+
+.banner2 {
+	animation: banner2 28s infinite;
+	background-color: #f5f5f5;
+	background-image: url('../img/desayuno1.jpg');
+	background-position: center;
+	background-size: cover;
+	height: calc(50vh - 50px);
+	margin: 1%;
+	position: static;
+	margin-top: 1%;
+	transition: all .1s ease-in-out;
+	width: 50%%;
+}
+
+.banner-content2 {
+	align-items: center;
+	background-color: rgb(0, 22, 40, .6);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.banner-content2 h1 {
+	font-size: 40px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.banner-content2 a {
+	border: 1px solid #c8994d;
+	color: #c8994d;
+	padding: 9px 20px;
+	transition: all .3s ease-in-out;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.banner-content2 a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+@keyframes banner2 {
+	0% {
+		background-image: url('../img/desayuno9.jpg');
+	}
+	25% {
+		background-image: url('../img/desayuno9.jpg');
+	}
+	26% {
+		background-image: url('../img/desayuno5.jpg');
+	}
+	50% {
+		background-image: url('../img/desayuno5.jpg');
+	}
+	51% {
+		background-image: url('../img/desayuno3.jpg');
+	}
+	75% {
+		background-image: url('../img/desayuno3.jpg');
+	}
+	76% {
+		background-image: url('../img/desayuno1.jpg');
+	}
+	100% {
+		background-image: url('../img/desayuno1.jpg');
+	}
+}

@@ -1,0 +1,367 @@
+/*
+REGLAS PARA TRABAJAR CON CSS
+
+1.- Primero se definen los estilos para ETIQUETAS html, por ejemplo:  header, footer, div, a, p, etc.
+
+2.- Despuès se definen los estilos para IDENTIFICADORES (id), los id's son elementos unicos en html, en el css se declaran con el simbolo de # ejemplo:  #nombre-id{estilos} y en el html se llaman mediante el atributo id, ejemplo <div id="publicidad"></div>
+
+3.- Al final se definen los estilos para las CLASES (class), las clases son elementos que se pueden repetir 'n' veces en html, en el css se declaran con el simbolo de . ejemplo: .nombre-clase{estilos} y en el html se llaman mediante el atributo class, ejemplo <div class="bode-logos"></div>
+
+4.- Todos los estilos aparecen conforme van apareciendo en la dispocicion del html, teniendo en cuenta la prioridad anterior, es decir, primero etiquetas html, luego id's y al final clases.
+
+5.- los atributos se declaran de la siguiente forma: { atributo1: valor1;atributo2: valor2;....;atributoN: valorN; }
+
+6.- Todos los atributos se ordenan alfabeticamente, por ejemplo si tengo width, color, display, entonce el orden seria: primero color, lego display y al final width.
+
+7.- Si tenemos estilos para el comodin *, o para las etiquetas html y/o body, estos estilos son los primeros en definirse.
+
+8.- En el body debemos declarar un tamaño de fuente global.
+
+9.- Si tenemos estilos para resetear elementos html, estos iran antes de cualquier estilo.
+
+*/
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+article,figcaption,figure,footer,header,hgroup,nav,section, aside {
+    display: block;
+}
+
+/* estilos del sitio */
+
+.displaynone{ display: none ; }
+.flex{ display: flex; justify-content: space-around; flex-wrap: wrap; width: 100%; }
+/*header*/
+header{ width: 100%; z-index: 999; transition: transform 0.3s; background: var(--navback); position: fixed; height: 85px; overflow: hidden; top: 0; } 
+.scroll-down .trigger-menu-wrapper {
+  transform: translate3d(0, -100%, 0);
+}
+.scroll-up .trigger-menu-wrapper {
+  transform: none;
+}
+.caledarreservamovil{ background: var(--colorprincipal2); display: none;
+width: 100%; transition: transform 0.4s;
+position: fixed; 
+top: 85px;
+padding: 10px;
+text-align: center;
+z-index: 990;
+color: var(--white); }
+.estadonavfondo{
+display: none;  position:fixed; height:100%; width:100%; top: 0px; z-index: 999; 
+}
+.logo{ position: absolute; }
+.logo img{ 
+max-height: 77px;
+margin: 0px;
+padding: 15px 0;
+/*background: var(--navback);*/
+} 
+
+.btnidioma{ padding: 7px; float: left; margin-left: 0px; cursor:pointer;  }
+.btnidioma b{ font-weight: normal; font-size: 11px; }
+.btnidioma a{ color: var(--black); }
+.nav{ float: right;
+clear: both;
+margin-top: 49px;
+margin-right: 20px; } 
+.btns{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px 0px 0;
+    letter-spacing: 0.9px;
+    float: left;
+    border-bottom: 3px solid #f000;
+    margin-left: 11px;
+    color: #111;
+}
+.btnscolor{ border-bottom:3px solid var(--colorprincipal2); }
+.nav a{  
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 11px;
+    padding: 6px 0px 0;
+    float: left;
+    margin-left: 0px;
+} /*endheader*/
+.bottonnav{ position: absolute;
+top: 17px;
+right: 10px;
+z-index: 999;
+width: 40px;
+background: ;
+font-size: 24px;
+color: var(--black);
+cursor: pointer;
+} 
+.navmovile{ height: 100%;
+right: -100%;
+position: fixed;
+top: 0;
+width: 300px;
+background: var(--navbackmovil);
+z-index: 99999;
+text-align: center;
+display: block;
+border-left: 3px solid var(--navback);
+min-height: 470px !important;
+}
+/*.navmovile a{ width: 100%; text-align: center; float: left; margin: 14px auto; font-size: 25px; padding: 10px; border-bottom: 0px solid #fff !important; } 
+*/
+.navmovile img{  width: 183px; text-align: center; }
+.navmovilediv1{ width: 100%; margin: 30px 0;}
+.navmovilediv2{ width: 100%; }
+#soloreservas{
+    padding: 0;
+    font-size: 14px;
+    height: 18px;
+}
+.navclose{ width: 100%;
+text-align: right;
+padding: 22px 20px 5px 0px;
+}
+.navclose i{ font-size: 21px; color:var(--black);
+cursor: pointer;
+position: absolute;
+right: 14px; }
+.navmmenu{
+    text-align: left;
+    color:var(--black);
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+}
+.navmmenu: hover{
+    background: #eee;
+}
+.headerpag{
+    width: 100%;
+    height: 435px;
+    overflow: hidden;
+    position: relative;
+}
+.headerpag img{
+    width: 100%;
+    height: 100%;
+}
+.headerpagtxt{
+    width: 100%;
+    height: 100%;
+    background: #0000007a;
+    color: #ffffffb5;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    padding: 220px 0;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+/*endheader*/
+
+ 
+/*calenreserva*/
+.calenreserva{ 
+    z-index: 992; 
+    top: 150px; 
+    right: 0px; 
+    width: 250px; 
+    position: absolute; 
+    padding:10px; 
+    border-radius: 5px; 
+    background: var(--fondocale); 
+}
+.calenreservafalse1{
+    z-index: 992; 
+    top: 85px; 
+    font-size: 18px; 
+    padding:8px; 
+    width: 230px; 
+    position: fixed; 
+    text-align: center; 
+    background: #c8994d; 
+    color: var(--white); 
+} 
+.calenreservaprecio{ 
+    width: 100%;  
+    font-size: 18px; 
+    padding: 6px; 
+    text-align: center; 
+    background: #2b2a2a8a; 
+    color: #fff; 
+    opacity: 0.6;
+}
+.calenreservafechas{
+    width: 46%; 
+    text-align: center; 
+    text-transform: capitalize; 
+    padding: 5px 0;
+    opacity: 0.6;
+    font-size: 15.5px; 
+    margin: 10px 2%;  
+    background: #0d0d0d61; 
+    color: #fff; }
+.calenreservafechas b{ 
+    font-size: 71px; 
+    font-family: arial; 
+    line-height: 65px; 
+    color: #fff;
+} 
+.calenreservabtn{ 
+    text-align: center;
+    font-size: 18px;
+    padding:8px;
+    width: 100%;
+    cursor: pointer;
+    background: #c8994d  repeat scroll 0 0;
+    color: #fff;
+}
+.contcalenreserva{
+    z-index: 992;
+    top: 150px;
+    right: 255px;
+    width: 350px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+}
+.calendarhead{
+    float: left;
+    width: 100%;
+    padding: 5px 5px 3px 5px;
+    border-radius: 5px;
+}
+.calendarhead span{
+    font-size: 23px;
+    width: 8%;
+    text-align: center;
+}
+.calendarhead label{
+    width: 84%;
+    text-align: center;
+    margin-bottom: 0;
+}
+.contdias{
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+.textdias{
+    width: 14%;
+    padding: 7px;
+    text-align: center;
+    font-size: 11px;
+    border-radius: 3px;
+}
+.numdias{
+    width: 14%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1px;
+    border-radius: 3px;
+}
+.numdiaspast{
+    width:14%;
+    padding: 10px;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 1px;
+    border-radius: 3px;
+}
+.hoy{
+    position: relative;
+}
+.texthoy{
+    position: absolute;
+    bottom: 1px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 7px;
+    text-transform: lowercase;
+} 
+.textentrada{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 7px;
+    text-transform: capitalize;
+    padding: 0.5px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+} 
+.textsalida{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 7px;
+    text-transform: capitalize;
+    padding: 0.5px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+.textestadia{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 7px;
+    text-transform: lowercase;
+    padding: 0.5px;
+    letter-spacing: 0.7px;
+}
+.markain{
+    position: relative;
+    cursor: pointer;
+}
+.markaout{
+    position: relative;
+    cursor: pointer;
+}
+.marka{
+    position: relative;
+    cursor: pointer;
+}
+.mnormal{
+    cursor: pointer;
+}
+.coorposition{
+    background: red;
+    height: 0;
+    z-index: 992;
+    top: 150px;
+    right: 0px;
+    width: 250px;
+    position: absolute;
+    padding:0 10px;
+    border-radius: 5px;
+}
+.calenreservacerrar{
+    float: right;
+    font-size: 24px;
+    text-align: right;
+    width: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 0;
+} 
+.calenreservacerrarfalse{
+    float: right;
+    font-size: 15px;
+    text-align: right;
+    width: 50%;
+}
+
+/*endcalenreserva*/

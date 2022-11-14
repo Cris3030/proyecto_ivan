@@ -1,0 +1,114 @@
+section#contenedor-rest {
+	background: #ffffff;
+	max-width: 100%;
+}
+
+section#contacto {
+	background: #011e30;
+	border-radius: .5em;
+	color: #fff;
+	display: inline-block;
+	margin: 0 auto;
+	margin-left: 20%;
+	min-height: 350px;
+	padding: .5em;
+	text-align: justify;
+	vertical-align: top;
+	width: 55%;
+}
+
+span.datos-contacto {
+	color: #f90;
+	margin-left: 1em;
+}
+
+.fade {
+	opacity: 1;
+	filter: alpha(opacity=10);
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+
+
+.fade:hover{opacity: 0.7;
+	filter: alpha(opacity=7);
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+article#info-contacto, article#contactanos {
+	border: .1em solid #1e6381;
+	border-radius: .5em;
+	margin: .5em;
+	min-height: 144px;
+	padding: .5em;
+}
+
+fieldset {
+	border: .1em solid #f60;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+form{
+	width: 100%;
+
+}
+
+form div{
+	margin: .5em;
+}
+
+iframe {
+	border-radius: .5em;
+}
+
+input[type="email"], input[type="text"], textarea {
+	background: #eee;
+	border-radius: .25em;
+	color: #f60;
+	font-size: 1em;
+	padding: .25em;
+	width: 95%;
+}
+
+input[type="email"]:focus, input[type="text"]:focus, textarea:focus {
+	background: #c6ecf9;
+}
+
+input[type="submit"] {
+	background: #f90;
+	border-radius: 0 .25em;
+	color: #500;
+	font-family: "chalet";
+	font-size: 1.25em;
+	padding: .25em;
+}
+
+input[type="submit"]:hover {
+	background: #7bbfd5;
+	border-radius: .25em 0;
+	color: #000;
+	cursor: pointer;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	color: #f90;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+footer {
+	margin: 0;
+	padding: 0;
+}

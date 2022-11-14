@@ -1,0 +1,129 @@
+/*
+REGLAS PARA TRABAJAR CON CSS
+
+1.- Primero se definen los estilos para ETIQUETAS html, por ejemplo:  header, footer, div, a, p, etc.
+
+2.- Despuès se definen los estilos para IDENTIFICADORES (id), los id's son elementos unicos en html, en el css se declaran con el simbolo de # ejemplo:  #nombre-id{estilos} y en el html se llaman mediante el atributo id, ejemplo <div id="publicidad"></div>
+
+3.- Al final se definen los estilos para las CLASES (class), las clases son elementos que se pueden repetir 'n' veces en html, en el css se declaran con el simbolo de . ejemplo: .nombre-clase{estilos} y en el html se llaman mediante el atributo class, ejemplo <div class="bode-logos"></div>
+
+4.- Todos los estilos aparecen conforme van apareciendo en la dispocicion del html, teniendo en cuenta la prioridad anterior, es decir, primero etiquetas html, luego id's y al final clases.
+
+5.- los atributos se declaran de la siguiente forma: { atributo1: valor1;atributo2: valor2;....;atributoN: valorN; }
+
+6.- Todos los atributos se ordenan alfabeticamente, por ejemplo si tengo width, color, display, entonce el orden seria: primero color, lego display y al final width.
+
+7.- Si tenemos estilos para el comodin *, o para las etiquetas html y/o body, estos estilos son los primeros en definirse.
+
+8.- En el body debemos declarar un tamaño de fuente global.
+
+9.- Si tenemos estilos para resetear elementos html, estos iran antes de cualquier estilo.
+*/
+
+* {
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+nav {
+	background: #212121;
+	height: 80px;
+	width: 100%;
+}
+
+.enlace {
+	padding: 20px 50px;
+	position: absolute;
+
+}
+
+.logo {
+	height: 40px;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: #fff;
+	border-radius: 3px;
+	font-size: 18px;
+	padding: 7px 13px;
+	text-transform: uppercase;
+}
+
+li a.active, li a:hover {
+	background: #c8994d;
+	transition: .5s;
+}
+
+.checkbtn {
+	color: #fff;
+	cursor: pointer;
+	display: none;
+	float: right;
+	font-size: 30px;
+	line-height: 80px;
+	margin-right: 40px;
+}
+
+#check {
+	display: none;
+}
+
+section {
+	background: url(fondo.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: calc(100vh - 80px);
+}
+
+@media screen and (max-width: 950px) {
+	.enlace {
+		padding-left: 20px;
+	}
+	nav ul li a {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.checkbtn {
+		display: block;
+	}
+	ul {
+		background: #2c3e50;
+		height: 100vh;
+		left: -100%;
+		position: fixed;
+		transition: all .5s;
+		top: 80px;
+		width: 100%;
+	}
+	nav ul li{
+		display: block;
+		line-height: 30px;
+		margin: 50px 0;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	li a.hover, li a.active {
+		background: none;
+		color: red;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+}
