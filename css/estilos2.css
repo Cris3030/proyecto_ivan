@@ -1,0 +1,80 @@
+/*
+REGLAS PARA TRABAJAR CON CSS
+
+1.- Primero se definen los estilos para ETIQUETAS html, por ejemplo:  header, footer, div, a, p, etc.
+
+2.- Despuès se definen los estilos para IDENTIFICADORES (id), los id's son elementos unicos en html, en el css se declaran con el simbolo de # ejemplo:  #nombre-id{estilos} y en el html se llaman mediante el atributo id, ejemplo <div id="publicidad"></div>
+
+3.- Al final se definen los estilos para las CLASES (class), las clases son elementos que se pueden repetir 'n' veces en html, en el css se declaran con el simbolo de . ejemplo: .nombre-clase{estilos} y en el html se llaman mediante el atributo class, ejemplo <div class="bode-logos"></div>
+
+4.- Todos los estilos aparecen conforme van apareciendo en la dispocicion del html, teniendo en cuenta la prioridad anterior, es decir, primero etiquetas html, luego id's y al final clases.
+
+5.- los atributos se declaran de la siguiente forma: { atributo1: valor1;atributo2: valor2;....;atributoN: valorN; }
+
+6.- Todos los atributos se ordenan alfabeticamente, por ejemplo si tengo width, color, display, entonce el orden seria: primero color, lego display y al final width.
+
+7.- Si tenemos estilos para el comodin *, o para las etiquetas html y/o body, estos estilos son los primeros en definirse.
+
+8.- En el body debemos declarar un tamaño de fuente global.
+
+9.- Si tenemos estilos para resetear elementos html, estos iran antes de cualquier estilo.
+
+*/
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#btn-mas {
+	display: none;
+}
+
+.container {
+	bottom: 20px;
+	position: fixed;
+	right: 20px;
+}
+
+.redes a, .icon-plus {
+	background: #cc2b2b;
+	border-radius: 50%;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	display: block;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 500ms ease;
+	width: 55px;
+}
+
+.redes a:hover {
+	background: #fff;
+	color: #cc2b2b;
+}
+
+.redes a {
+	margin-bottom: -15px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#btn-mas:checked~ .redes a {
+	margin-bottom: 10px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.icon-plus {
+	background: #f44141;
+	cursor: pointer;
+	font-size: 23px;
+}
+
+#btn-mas:checked ~ .btn-mas .icon-plus {
+	font-size: 25px;
+	transform: rotate(137deg);
+}

@@ -1,0 +1,170 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+section#carrucel {
+	background-image: url(../img/texture-background.jpg);
+	margin: 1%;
+	max-width: 98%;
+	height: 55vh;
+	padding-top: 1px;
+}
+
+h2 {
+	color: #c8994d;
+	font-family: arial;
+	font-size: 40px;
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 0px 0px 6px blueviolet;
+}
+
+.content-all {
+	
+	background-size: cover;
+	margin: auto;
+	margin-top: 50px;
+	perspective: 900px;
+	position: relative;
+	text-align: center;
+	width: 195px;
+}
+
+.content-carrusel {
+	animation: rotar 10s infinite linear;
+	position: absolute;
+	transform-style: preserve-3d;
+	width: 100%;
+}
+
+.content-carrusel:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
+.content-carrusel figure {
+	box-shadow: 0px 0px 20px 0px black;
+	height: 130px;
+	overflow: hidden;
+	position: absolute;
+	transition: all 300ms;
+	width: 100%;
+}
+
+.content-carrusel figure:hover {
+	box-shadow: 0px 0px 0px 0px black;
+	transition: all 300ms;
+}
+
+.content-carrusel figure:nth-child(1) {
+	transform: rotateY(0deg) translateZ(380px);
+}
+
+.content-carrusel figure:nth-child(2) {
+	transform: rotateY(40deg) translateZ(380px);
+}
+
+.content-carrusel figure:nth-child(3) {
+	transform: rotateY(80deg) translateZ(380px);
+}
+
+.content-carrusel figure:nth-child(4) {
+	transform: rotateY(120deg) translateZ(380px);
+}
+
+.content-carrusel figure:nth-child(5) {
+	transform: rotateY(160deg) translateZ(380px);
+}
+
+.content-carrusel figure:nth-child(6) {
+	transform: rotateY(200deg) translateZ(380px);
+}
+
+.content-carrusel figure:nth-child(7) {
+	transform: rotateY(240deg) translateZ(380px);
+}
+
+.content-carrusel figure:nth-child(8) {
+	transform: rotateY(280deg) translateZ(380px);
+}
+
+.content-carrusel figure:nth-child(9) {
+	transform: rotateY(320deg) translateZ(380px);
+}
+
+.content-carrusel figure:nth-child(10) {
+	transform: rotateY(360deg) translateZ(380px);
+}
+
+.content-carrusel img {
+	transition: all 360ms;
+	width: 100%;
+}
+
+.content-carrusel img:hover {
+	transform: scale(1.2);
+	transition: all 360ms;
+}
+
+@keyframes rotar {
+	from {
+		transform: rotateY(0deg);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}
+
+@media screen and (max-width: 900px) {
+	body {
+
+	}
+	.content-all {
+		background-size: contain;
+		margin-top: 50px;
+		max-width: 95%;
+		perspective: 1500px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.content-all {
+		background-size: contain;
+		margin-top: 50px;
+		max-width: 95%;
+		perspective: 5000px;
+	}
+	.content-carrusel {
+		margin-left: 50px;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	section#contenedor-hab {
+		margin: 0;
+		max-width: 100%;
+		padding: 0;
+	}
+	section#carrucel {
+		max-width: 98%;
+		height: 40vh;
+	}
+	.content-all {
+		background-size: contain;
+		margin: 3%;
+		margin-top: 50px;
+		max-width: 95%;
+		perspective: 10000px;
+	}
+	.content-carrusel {
+		margin-left: 50px;
+		max-width: 70%;
+		height: 100px;
+	}
+	.content-carrusel figure {
+		height: 88px;
+	}
+}
