@@ -47,9 +47,9 @@
 			<img src="img/mini_logo_black.jpg" alt="" class="logo">
 		</a>
 		<ul>
-			<li><a class="active" href="https://cris3030.github.io/proyecto_ivan/index.html">Hotel</a></li>
+			<li><a href="https://cris3030.github.io/proyecto_ivan/index.html">Hotel</a></li>
 			<li><a href="https://cris3030.github.io/proyecto_ivan/reserva.html">Reservas</a></li>
-			<li><a href="https://cris3030.github.io/proyecto_ivan/restaurant.html">Restaurante</a></li>
+			<li><a class="active" href="https://cris3030.github.io/proyecto_ivan/restaurant.html">Restaurante</a></li>
 			<li><a href="https://cris3030.github.io/proyecto_ivan/habitaciones.html">Habitaciones</a></li>
 			<li><a href="https://cris3030.github.io/proyecto_ivan/contactos.html">Contactos</a></li>
 		</ul>
@@ -58,127 +58,6 @@
 	<section id="principal">
 
 		<section class="banner">
-			<!--a href="#" class="caledarreservamovil">Reservar ahora</a>
-			<div class="estadonav displaynone">0</div>
-			<div class="estadonavfondo"></div>
-			<script type="text/javascript"> 
-				$(document).ready(function(){ 
-				
-					$(".estadonavfondo").click(function(){
-						$('.estadonavfondo').css('display','none');
-						var estadonav=$('.estadonav').html();
-						estadonav++; 
-						$('.estadonav').html(estadonav);
-						if(estadonav==2){
-							$('.navmovile').animate({'right':'-100%' }, 100);
-							$(".divbody,.slider,.caledarreservamovil,.cuborojo").animate({ 'left': '0px' }, 100);
-						
-						}
-						return;
-					})
-					$('.bottonnav').click(function(){
-						$('.estadonavfondo').css('display','block'); 
-						$('.estadonav').html(1);
-						$('.navmovile').animate({'right':'0' }, 100);
-						$(".divbody,.slider,.caledarreservamovil,.cuborojo").animate({ 'left': '-300px' }, 100); 
-						//$("html, body").animate({ scrollTop: 0 }, 300);  
-						return;
-					});
-					$('.cerrarnabv,.navmmenu').click(function(){
-						$('.estadonavfondo').toggle();
-						$('.navmovile').animate({'right':'-100%' }, 100);
-						$(".divbody,.slider,.caledarreservamovil,.cuborojo").animate({ 'left': '0px' }, 100); 
-						$('.estadonav').html(0);
-					})
-				});
-			</script>
-
-		
-
-
-			<div class="coorposition"></div>
-			<div class="calenreserva" style="position: absolute; left: auto;">
-				<div class="flex">
-					<div class="calenreservacerrarfalse displaynone">&nbsp;</div>
-					<div class="calenreservacerrar displaynone">
-						<i class="icofont-close-circled"></i>
-					</div>
-					<div class="calenreservaprecio">Precio desde: 60$</div>
-					<div class="btnclickini calenreservafechas">entrada<br><b>22</b><br>Octubre<br>2022</div>
-					<div class="btnclickfin calenreservafechas">salida<br><b>23</b><br>Octubre<br>2022</div>
-						<a class="calenreservabtn" href="http://hotelmitrusur.com/index.php/reservas?checkin=2022-10-22&amp;&amp;checkout=2022-10-23">Reservar ahora</a>
-						<label class="displaynone maryc">0</label>
-						<label class="displaynone liz">0</label>
-						<input id="datecheckin" type="hidden" autocomplete="off" name="datecheckin" value="2022-10-22" style="color:#333">
-						<input id="datecheckout" type="hidden" autocomplete="off" name="datecheckout" value="2022-10-23" style="color:#333">
-				</div>
-			</div>
-			<div class="calenreservafalse1 displaynone" style="display: none; left: 1009.5px;">Reservar ahora</div>
-			<div class="contcalenreserva displaynone" style="position: absolute; left: auto;"></div>
-			</div>
-			<!-- Codigo del calendario -->
- 			<!--script type="text/javascript">
-      			$(document).ready(function(){
-      				$('.calenreservafalse1').click(function(){ 
-      					$('.liz').html(1);
-	        			$('.calenreserva').removeClass('subirarriba');
-	        			$('.contcalenreserva').removeClass('subirarriba');
-	        			var coordenadas = $(".coorposition").offset();
-	        			var cl=coordenadas.left;
-	        			$('.calenreserva').css({'position':'fixed', 'left':cl+"px"});
-            			$('.contcalenreserva').css({'position':'fixed', 'left':cl-355+"px"});
-            			$('.calenreservafalse1').css('display','none');
-	    			})
-
-      				$('.calenreservacerrar').click(function(){ 
-      					$('.liz').html(0);
-	       	 			$('.calenreserva').addClass('subirarriba');
-	        			$('.contcalenreserva').addClass('subirarriba');
-	        			var coordenadas = $(".coorposition").offset();
-	        			var cl=coordenadas.left;
-	        			$('.calenreservafalse1').css({'display':'block', 'left':cl+10+"px" });
-	    			});
-
-        			$('.btnclickini').click(function(){  
-          				var datecheckin=$('#datecheckin').val(); 
-          				var datecheckout=$('#datecheckout').val();
-          				$('.contcalenreserva').load('index.php/calendario?estado=1&&cin='+datecheckin+'&&cout='+datecheckout);
-          				var maryc=$('.maryc').html();
-          				if(maryc==1){ 
-          					$('.liz').html(0);
-            				$('.maryc').html(0); $('.contcalenreserva').addClass('displaynone'); 
-            				$('.btnclickini').removeClass('classcheck'); 
-            			}
-            			else{ 
-            				$('.liz').html(1);
-            				$('.maryc').html(1); 
-            				$('.contcalenreserva').removeClass('displaynone'); 
-            				$('.btnclickini').addClass('classcheck'); 
-            				$('.datecheckout').removeClass('classcheck'); 
-            			}
-
-        			});
-        			$('.btnclickfin').click(function(){ 
-          				var datecheckin=$('#datecheckin').val(); var datecheckout=$('#datecheckout').val(); 
-          				$('.contcalenreserva').load('index.php/calendario?estado=2&&cin='+datecheckin+'&&cout='+datecheckout);
-          				var maryc=$('.maryc').html();
-          				if(maryc==3){  
-            				$('.maryc').html(0); 
-            				$('.contcalenreserva').addClass('displaynone'); 
-            				$('.btnclickfin').removeClass('classcheck'); 
-          				}
-          				else{ 
-          					$('.liz').html(1); $('.maryc').html(3); 
-	        				$('.contcalenreserva').removeClass('displaynone'); $('.btnclickfin').addClass('classcheck'); 
-	        				$('.btnclickini').removeClass('classcheck'); 
-          				}
-        			});
-
-
-      			});
-      	
- 			</script-->
-
 			<div class="banner-content">
 				<h1>Restaurante Magenta<br> &amp; Desayunos</h1>
 				<!--a href="#">Habitaciones</a-->			
