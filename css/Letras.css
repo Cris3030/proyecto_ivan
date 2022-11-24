@@ -1,0 +1,72 @@
+/*letter type*/
+
+
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2.eot");
+	src: url("../fonts/Exo2.eot?#iefix") format("embedded-opentype"), url("../fonts/Exo2.woff") format("woff"), url("../fonts/Exo2.ttf") format("truetype"), url("../fonts/Exo2.svg#Exo2") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "chalet";
+	src: url("../fonts/chalet.eot");
+	src: url("../fonts/chalet.eot?#iefix") format("embedded-opentype"), url("../fonts/chalet.woff") format("woff"),
+		 url("../fonts/chalet.ttf") format("truetype"),
+		 url("../fonts/chalet.svg#chalet") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Pecita";
+	src: url("../fonts/Pecita.eot");
+	src: url("../fonts/Pecita.eot?#iefix") format("embedded-opentype"), url("../fonts/chalet.woff") format("woff"),
+		 url("../fonts/Pecita.ttf") format("truetype"),
+		 url("../fonts/Pecita.svg#Pecita") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "exo_space";
+	src: url("../fonts/exo_space.eot");
+	src: url("../fonts/exo_space.eot?#iefix") format("embedded-opentype"), url("../fonts/exo_space.woff") format("woff"), url("../fonts/exo_space.ttf") format("truetype"), url("../fonts/exo_space.svg#exo_space") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "exotica";
+	src: url("../fonts/exotica.eot");
+	src: url("../fonts/exotica.eot?#iefix") format("embedded-opentype"), url("../fonts/exotica.woff") format("woff"), url("../fonts/exotica.ttf") format("truetype"), url("../fonts/exotica.svg#exotica") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "extra_mile";
+	src: url("../fonts/extra_mile.eot");
+	src: url("../fonts/extra_mile.eot?#iefix") format("embedded-opentype"), url("../fonts/extra_mile.woff") format("woff"), url("../fonts/extra_mile.ttf") format("truetype"), url("../fonts/extra_mile.svg#extra_mile") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "explosion";
+	src: url("../fonts/explosion.eot");
+	src: url("../fonts/explosion.eot?#iefix") format("embedded-opentype"), url("../fonts/explosion.woff") format("woff"), url("../fonts/explosion.ttf") format("truetype"), url("../fonts/explosion.svg#explosion") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "fontello";
+	src: url("../fonts/fontello.eot");
+	src: url("../fonts/fontello.eot?#iefix") format("embedded-opentype"), url("../fonts/fontello.woff") format("woff"),
+		 url("../fonts/fontello.ttf") format("truetype"),
+		 url("../fonts/fontello.svg#fontello") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
