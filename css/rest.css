@@ -1,0 +1,106 @@
+section#contenedor-rest {
+	background: #ffffff;
+	height: 1315px;
+	max-width: 100%;
+	overflow: hidden;
+	position: static;
+}
+
+section#content {
+	background-color: #cafada;
+	border: #caca21 solid 5px;
+	border-radius: 2%;
+	margin: 0px auto;
+	margin-left: 7.5%;
+	margin-top: 1%;
+	max-height: 25%;
+	max-width: 88%;
+
+}
+
+#infocar1 {
+	background-color: #cafada;
+	border: #123456 solid 1%;
+	height: 20%;
+	margin-top: 0px auto;
+	padding: .5%;
+	width: 40%;
+	float: left;
+}
+
+#inforest1 {
+	background-color: #cafada;
+	float: right;
+	width: 60%;
+}
+
+#infocar2 {
+	background-color: #cafada;
+	border: #123456 solid 1%;
+	float: right;
+	height: 50%;
+	margin-left: 1%;
+	margin-top: 0px auto;
+	padding: .5%;
+	width: 40%;
+}
+
+#inforest2 {
+	background-color: #cafada;
+	width: 60%;
+}
+
+.mageclass1 {
+	background-color: #cacada;
+	font: "Exo2";
+	font-size: 132%;
+	padding: 5%;
+	text-align: center;
+	max-width: 100%;
+}
+
+.mageclass2 {
+	background-color: #cafada;
+	font-size: 1em;
+	padding: 1%;
+}
+
+.mageclass3 {
+	background-color: #cafada;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 1.3em;
+}
+
+.mageclass3 b {
+	color: #de1e07;
+}
+
+.mageclass4 {
+	background-color: #c8994d;
+	color: #fff;
+	text-align: center;
+	margin-left: 43%;
+	margin-top: .8em;
+	max-width: 20%;
+	padding: 1.5%;
+}
+
+.mageclass3a {
+	background-color: #cafada;
+	color: #de1e07;
+	font-size: 1.5em;
+	text-align: right;
+	margin-top: 1.3em;
+	width: 50%;
+}
+
+.mageclass3b {
+	background-color: #cafada;
+	font-size: 1.5em;
+	float: right;
+	text-align: left;
+	margin: 0px auto;
+	margin-top: 1.3em;
+	width: 50%;
+}

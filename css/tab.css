@@ -1,0 +1,144 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+	display: block;
+	height: 750px;
+	margin-left: 320px;
+	max-width: 100%;
+	width: 800px;
+}
+
+ul.tabs {
+	background: #363636;
+	display: flex;
+	list-style: none;
+	width: 100%;
+}
+
+ul.tabs li {
+	width: 18%;
+}
+
+ul.tabs li a {
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	padding: 20px 0;
+	text-decoration: none;
+	text-align: center;
+}
+
+.active {
+	background: #0984cc;
+}
+
+ul.tabs li a .tab-text {
+	
+}
+
+.contenedor {
+	background: #f8eb98;
+	width: 100%;
+}
+
+.contenedor article {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 0em;
+}
+
+.contenedor article p {
+	top: 0px;
+	padding: 10px;
+}
+
+h1 {
+	background: #fc595c;
+	color: #fff;
+	font-family: "Gill-sans", "Gill-sans MT", "Myriad Pro", "DejaVu sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	height: 100px;
+	left: -230px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	top: 110px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	vertical-align: top;
+	width: 320px;
+}
+
+@media screen and (max-width: 950px){
+	.wrap {
+		display: block;
+		margin-left: 130px;
+		max-width: 80%;
+		height: 730px;
+		vertical-align: top;
+	}
+	ul.tabs {
+		position: absolute;
+		top: 800px;
+	}
+	ul.tabs li a .tab-text {
+		display: inline-block;
+		margin-left: 0px;
+	}
+	.contenedor {
+		min-height: 90%;
+		max-height: 100%;
+		max-width: 80%;
+	}
+	h1 {
+		left: -20px;
+		top: -0px;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	
+}
+
+@media screen and (max-width: 700px){
+	.wrap {
+		margin-left: 110px;
+		max-width: 70%;
+		height: 800px;
+		vertical-align: top;
+	}
+	ul.tabs {
+		margin: 0;
+		padding: 0;
+		width: 50%;
+	}
+	ul.tabs li {
+		flex-basis: 0;
+		flex-grow: 1;
+		width: none;
+	}
+	ul.tabs li a {
+		padding: 15px 0;
+	}
+	ul.tabs li a .tab-text {
+		display: inline-block;
+		margin-left: -30px;
+	}
+	
+	h1 {
+		float: none;
+		left: -205px;
+		height: 70px;
+		padding: 1%;
+		position: relative;
+		top: 115px;
+		max-width: 115%;
+	}	
+}
