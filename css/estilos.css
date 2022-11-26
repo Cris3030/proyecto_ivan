@@ -363,7 +363,8 @@ footer {
 		font-size: 125%;
 	}
 	section#bienvenida {
-		height: 75vh;
+		font-size: 80%;
+		height: 50vh;
 	}
 	section#contenedor-ini {
 		height: 2450px;

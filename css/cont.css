@@ -3,7 +3,7 @@
 section#contenedor-cont {
 	background: #fffff;
 	display: inline-block;
-	height: 210vh;
+	height: 100vh;
 	max-width: 100%;
 	width: 1450px;
 }
@@ -15,7 +15,7 @@ section#contacto {
 	display: inline-block;
 	margin: 0 auto;
 	margin-left: 20%;
-	min-height: 350px;
+	min-height: 380px;
 	padding: .5em;
 	text-align: justify;
 	vertical-align: top;
@@ -51,7 +51,7 @@ article#info-contacto, article#contactanos {
 	border: .1em solid #1e6381;
 	border-radius: .5em;
 	margin: .5em;
-	min-height: 144px;
+	min-height: 115px;
 	padding: .5em;
 }
 
@@ -111,11 +111,6 @@ legend {
 	color: #f90;
 	font-size: 1.2em;
 	font-weight: bold;
-}
-
-footer {
-	margin: 0;
-	padding: 0;
 }
 
 @media screen and (max-width: 600px) {
