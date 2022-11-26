@@ -52,16 +52,16 @@
 
 @keyframes banner {
 	0% {
-		background-image: url('../img/triple.jpg');
+		background-image: url('./img/triple.jpg');
 	}
 	25% {
-		background-image: url('../img/triple.jpg');
+		background-image: url('./img/triple.jpg');
 	}
 	26% {
-		background-image: url('../img/suite4.jpg');
+		background-image: url('./img/suite4.jpg');
 	}
 	50% {
-		background-image: url('../img/suite4.jpg');
+		background-image: url('./img/suite4.jpg');
 	}
 	51% {
 		background-image: url('../img/matrimonial.jpg');
