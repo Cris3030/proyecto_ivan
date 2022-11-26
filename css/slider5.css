@@ -3,7 +3,7 @@ body {
 }
 
 section#carrucel {
-	background-image: url(./img/texture-background.jpg);
+	background-image: url(../img/texture-background.jpg);
 	margin: 1%;
 	max-width: 98%;
 	height: 50vh;
