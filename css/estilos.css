@@ -364,8 +364,8 @@ footer {
 	}
 	section#bienvenida {
 		font-size: 80%;
-		max-height: 60%;
-		min-height: 60%;
+		max-height: 50%;
+		min-height: 50%;
 	}
 	section#contenedor-ini {
 		height: 2450px;
