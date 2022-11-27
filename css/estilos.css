@@ -175,7 +175,7 @@ footer {
 .infohab1 {
 	display: block;
 	background: #8B4513;
-	height: 65vh;
+	height: 60vh;
 	margin: 0.5%;
 	max-width: 99%;
 	vertical-align: top;
@@ -183,7 +183,7 @@ footer {
 
 .infohab2 {
 	background: #8B4513;
-	height: 400px;
+	height: 60vh;
 	margin: 0.5%;
 	max-width: 99%;
 	vertical-align: top;
@@ -191,7 +191,7 @@ footer {
 
 .infohab3 {
 	background: #8B4513;
-	height: 400px;
+	height: 60vh;
 	margin: 0.5%;
 	max-width: 99%;
 	vertical-align: top;
@@ -199,7 +199,7 @@ footer {
 
 .infohab4 {
 	background: #8B4513;
-	height: 400px;
+	height: 60vh;
 	margin: 0.5%;
 	max-width: 99%;
 	vertical-align: top;
@@ -384,7 +384,7 @@ footer {
 
 	}
 	.infohab1 {
-		height: 85vh;
+		height: 80vh;
 	}
 	.info1 {
 		float: none;
@@ -399,7 +399,7 @@ footer {
 		display: block;
 	}
 	.infohab2 {
-		height: 85vh;
+		height: 80vh;
 	}
 	.info2 {
 		max-width: 80%;
@@ -415,7 +415,7 @@ footer {
 
 	}
 	.infohab3 {
-		height: 85vh;
+		height: 80vh;
 	}
 	.info3 {
 		float: none;
@@ -430,7 +430,7 @@ footer {
 		display: block;
 	}
 	.infohab4 {
-		height: 89vh;
+		height: 80vh;
 	}
 	.info4 {
 		max-width: 80%;
