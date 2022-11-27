@@ -64,7 +64,7 @@ section#bienvenida {
 
 section#contenedor-ini {
 	background: #ffffff;
-	height: 2150px;
+	height: 2138px;
 	max-width: 100%;
 	overflow: hidden;
 	position: static;
@@ -101,7 +101,8 @@ div.detail a:hover {
 
 section#map {
 	background: #212121;
-	height: 400px;
+	max-height: 57vh;
+	min-height: 57vh;
 	padding: 2%;
 	width: 100%;
 }
@@ -115,7 +116,6 @@ section#secundario {
 	height: 200px;
 	max-width: 75%; /* maximo tamaño para las pantallas */
 	padding: 0.1%; /* espacio entre el contenido del elemento y su borde */
-
 }
 
 div#mapa {
@@ -131,9 +131,11 @@ div#mapa {
 article#contmap {
 	background: #111111;
 	height: 700px;
+	padding: 5px;
 	margin: 1.5%;
-	max-height: 99%;
+	max-height: 100vh;
 	max-width: 99%;
+	min-height: 100vh;
 }
 
 div#foot {
@@ -216,19 +218,31 @@ footer {
 }
 
 .secundario1 img {
+	max-height: 50%;
 	max-width: 100%;
+	min-height: 50%;
+	min-width: 90%;
 }
 
 .secundario2 img {
+	max-height: 50%;
 	max-width: 100%;
+	min-height: 50%;
+	min-width: 90%;
 }
 
 .secundario3 img {
+	max-height: 50%;
 	max-width: 100%;
+	min-height: 50%;
+	min-width: 90%;
 }
 
 .secundario4 img {
+	max-height: 50%;
 	max-width: 100%;
+	min-height: 50%;
+	min-width: 90%;
 }
 
 .info1 {
@@ -368,7 +382,7 @@ footer {
 		min-height: 50%;
 	}
 	section#contenedor-ini {
-		height: 2450px;
+		height: 2388px;
 	}
 	section#map {
 		height: 120vh;
@@ -379,11 +393,8 @@ footer {
 	div#mapa {
 		max-width: 100%;
 	}
-	.infohab1 .info1 {
-		display: block;
-
-	}
 	.infohab1 {
+		display: block;
 		height: 80vh;
 	}
 	.info1 {
@@ -395,10 +406,8 @@ footer {
 		margin-left: 50px;
 		max-width: 75%;
 	}
-	.infohab2 .info2 {
-		display: block;
-	}
 	.infohab2 {
+		display: block;
 		height: 80vh;
 	}
 	.info2 {
@@ -410,11 +419,8 @@ footer {
 		margin-left: 40px;
 		max-width: 80%;
 	}
-	.infohab3 .info3 {
-		display: block;
-
-	}
 	.infohab3 {
+		display: block;
 		height: 80vh;
 	}
 	.info3 {
@@ -426,10 +432,8 @@ footer {
 		margin-left: 50px;
 		max-width: 75%;
 	}
-	.infohab4 .info4 {
-		display: block;
-	}
 	.infohab4 {
+		display: block;
 		height: 80vh;
 	}
 	.info4 {
