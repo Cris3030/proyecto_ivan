@@ -56,6 +56,7 @@ ul.tabs li a .tab-text {
 .contenedor article p {
 	top: 0px;
 	padding: 10px;
+	width: 100%;
 }
 
 h1 {
@@ -79,14 +80,14 @@ h1 {
 @media screen and (max-width: 950px){
 	.wrap {
 		display: block;
-		margin-left: 130px;
+		margin-left: 80px;
 		max-width: 80%;
 		height: 730px;
 		vertical-align: top;
 	}
 	ul.tabs {
 		position: absolute;
-		top: 800px;
+		top: 0px;
 	}
 	ul.tabs li a .tab-text {
 		display: inline-block;
@@ -95,11 +96,12 @@ h1 {
 	.contenedor {
 		min-height: 90%;
 		max-height: 100%;
-		max-width: 80%;
+		max-width: 400px;
+		min-width: 400px
 	}
 	h1 {
-		left: -20px;
-		top: -0px;
+		left: 200px;
+		top: 200px;
 		-webkit-transform: rotate(0deg);
 		-moz-transform: rotate(0deg);
 		transform: rotate(0deg);
@@ -111,9 +113,16 @@ h1 {
 	.wrap {
 		margin-left: 110px;
 		max-width: 70%;
-		height: 800px;
+		height: 900px;
 		vertical-align: top;
 	}
+
+	.contenedor {
+		min-height: 90%;
+		max-height: 100%;
+		max-width: 80%;
+	}
+
 	ul.tabs {
 		margin: 0;
 		padding: 0;
@@ -134,11 +143,17 @@ h1 {
 	
 	h1 {
 		float: none;
-		left: -205px;
+		left: -20px;
 		height: 70px;
 		padding: 1%;
 		position: relative;
-		top: 115px;
+		top: 0px;
 		max-width: 115%;
-	}	
+	}
+	.contenedor article p {
+	left: 0;
+	top: 0px;
+	padding: 10px;
+	width: 100%;
+	}
 }
