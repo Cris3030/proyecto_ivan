@@ -396,11 +396,11 @@ footer {
 	}
 	.infohab1 {
 		display: block;
-		height: 60vh;
+		height: 40vh;
 	}
 	.info1 {
 		float: none;
-		max-width: 90%;
+		max-width: 95%;
 		margin-left: 50px;
 	}
 	.secundario1 {
@@ -409,10 +409,10 @@ footer {
 	}
 	.infohab2 {
 		display: block;
-		height: 80vh;
+		height: 40vh;
 	}
 	.info2 {
-		max-width: 80%;
+		max-width: 95%;
 		margin-left: 40px;
 	}
 	.secundario2 {
@@ -422,7 +422,7 @@ footer {
 	}
 	.infohab3 {
 		display: block;
-		height: 80vh;
+		height: 40vh;
 	}
 	.info3 {
 		float: none;
@@ -435,7 +435,7 @@ footer {
 	}
 	.infohab4 {
 		display: block;
-		height: 80vh;
+		height: 40vh;
 	}
 	.info4 {
 		max-width: 80%;
@@ -445,5 +445,11 @@ footer {
 		float: none;
 		margin-left: 40px;
 		max-width: 80%;
+	}
+	.precionoche {
+		width: 80%;
+	}
+	.precionoche h2 {
+		height: 1.5em;
 	}
 }
