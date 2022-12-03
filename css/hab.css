@@ -1,5 +1,12 @@
+section#principal-hab {
+	max-height: 800vh;
+	max-width: 100%;
+	min-height: 800vh;
+}
+
 section#contenedor-hab {
 	background: #000000;
+	max-height: 800vh;
 	max-width: 100%;
-	position: static;
+	min-height: 800vh;
 }

@@ -63,7 +63,7 @@ section#bienvenida {
 
 section#contenedor-ini {
 	background: #ffffff;
-	height: 301vh;
+	height: 245vh;
 	max-width: 100%;
 	overflow: hidden;
 	position: static;
@@ -112,14 +112,15 @@ section#secundario {
 	margin: 0px auto;
 	margin-left: 7%; /* margen entre etiquetas */
 	height: 200px;
-	max-width: 75%; /* maximo tamaño para las pantallas */
+	max-width: 40%; /* maximo tamaño para las pantallas */
+	min-width: 40%;
 	padding: 0.1%; /* espacio entre el contenido del elemento y su borde */
 }
 
 div#mapa {
 	background: #cacad0;
 	float: right;
-	height: 20em;
+	height: 25em;
 	margin-right: 10%;
 	max-width: 50%;
 	padding: 1%;
@@ -346,15 +347,16 @@ footer {
 .vistainfotxttitulo {
 	background: #212121;
 	color: #c8994d;
-	font-size: 120%;
+	font-size: 2em;
 	margin: 2%;
-	max-width: 50%;
+	max-width: 55%;
 }
 
 .vistainfotxtia {
 	background: #212121;
 	color: #ffffff;
 	font: "Chalet";
+	font-size: 1.5em;
 	margin-left: 2%;
 	max-width: 95%;
 	padding: 2%%;
@@ -374,7 +376,7 @@ footer {
 	background: #212121;
 	color: #fffffa;
 	text-align: center;
-	font-size: 140%;
+	font-size: 180%;
 	
 }
 
