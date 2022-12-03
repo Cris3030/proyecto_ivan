@@ -41,13 +41,12 @@ article,figcaption,figure,footer,header,hgroup,nav,section, aside {
 body{
 	background: #212121;
 	max-width: 100%;
-	
 }
 
 section#principal {
 	background: ##FFDEAD; /* color de fondo */
+	margin-top: 50px;
 	max-width: 100%; /* maximo tamaño para las pantallas */
-
 }
 
 section#slider {
@@ -64,7 +63,7 @@ section#bienvenida {
 
 section#contenedor-ini {
 	background: #ffffff;
-	height: 2138px;
+	height: 301vh;
 	max-width: 100%;
 	overflow: hidden;
 	position: static;
@@ -101,9 +100,8 @@ div.detail a:hover {
 
 section#map {
 	background: #212121;
-	max-height: 57vh;
-	min-height: 57vh;
-	padding: 2%;
+	max-height: 55vh;
+	min-height: 55vh;
 	width: 100%;
 }
 
@@ -130,12 +128,12 @@ div#mapa {
 
 article#contmap {
 	background: #111111;
-	height: 700px;
-	padding: 5px;
+	height: 50vh;
+	padding: 2%;
 	margin: 1.5%;
-	max-height: 100vh;
+	max-height: 55vh;
 	max-width: 99%;
-	min-height: 100vh;
+	min-height: 55vh;
 }
 
 div#foot {
@@ -143,7 +141,6 @@ div#foot {
 	border-top:1px solid #f88;
 	color: #fff;
 	font-size:11px;
-	padding:0px;
 	text-align:center;
 	width: 100%;
 }
@@ -157,11 +154,20 @@ footer {
 	background: #000000;
 	border-top:1px solid #f88;
 	color: #fff;
+	display: block;
 	font-size:12px;
 	padding:1px;
 	margin: 0;
 	text-align:center;
 	width: 100%;
+}
+
+.linea {
+  border-top: 1px solid salmon;
+  height: 2px;
+  max-width: 100%;
+  padding: 0;
+  margin: 20px auto 0 auto;
 }
 
 /*.slides {
@@ -328,16 +334,16 @@ footer {
 	vertical-align: ;
 }
 
-.divvistainformaciontxt {
+/*.vistainfotxt {
 	background: #212121;
 	margin: 2%;
 	margin-left: 2%;
 	max-width: 35%;
 	padding: 1%;
 	vertical-align: top;
-}
+}*/
 
-.divvistainformaciontxttitulo {
+.vistainfotxttitulo {
 	background: #212121;
 	color: #c8994d;
 	font-size: 120%;
@@ -345,7 +351,7 @@ footer {
 	max-width: 50%;
 }
 
-.divvistainformaciontxtia {
+.vistainfotxtia {
 	background: #212121;
 	color: #ffffff;
 	font: "Chalet";
@@ -355,7 +361,7 @@ footer {
 	text-align: left;
 }
 
-.divvistainformaciontxtia a {
+.vistainfotxtia a {
 	color: #c8994d;
 }
 
@@ -383,7 +389,7 @@ footer {
 	}
 	section#contenedor-ini {
 		display: block;
-		height: 2388px;
+		height: 310vh;
 	}
 	section#map {
 		height: 120vh;
