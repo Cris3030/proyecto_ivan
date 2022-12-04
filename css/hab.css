@@ -1,12 +1,13 @@
 section#principal-hab {
-	max-height: 800vh;
+	display: block;
+	max-height: 300vh;
 	max-width: 100%;
-	min-height: 800vh;
+	min-height: 300vh;
 }
 
 section#contenedor-hab {
 	background: #000000;
-	max-height: 800vh;
+	max-height: 162vh;
 	max-width: 100%;
-	min-height: 800vh;
+	min-height: 162vh;
 }
