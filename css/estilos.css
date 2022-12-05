@@ -395,9 +395,16 @@ footer {
 	}
 	section#map {
 		height: 120vh;
+		width: 100%;
+	}
+	section#secundario {
+		max-width: 90%;
+		min-width: 90%;
 	}
 	article#contmap {
 		display: block;
+		max-width: 90%;
+		min-width: 90%;
 	}
 	div#mapa {
 		max-width: 100%;
@@ -459,5 +466,39 @@ footer {
 	}
 	.precionoche h2 {
 		height: 1.5em;
+	}
+	.vistainfotxttitulo {
+		background: #212121;
+		color: #c8994d;
+		font-size: 2em;
+		margin: 2%;
+		max-width: 75%;
+	}
+
+	.vistainfotxtia {
+		background: #212121;
+		color: #ffffff;
+		font: "Chalet";
+		font-size: 1.5em;
+		margin-left: 2%;
+		max-width: 95%;
+		padding: 2%%;
+		text-align: left;
+	}
+
+	.vistainfotxtia a {
+		color: #c8994d;
+	}
+
+	.semifooter {
+		background: #111111;
+		max-width: 100%;
+	}
+
+	.semifooterseguimos {
+		background: #212121;
+		color: #fffffa;
+		text-align: center;
+		font-size: 180%;
 	}
 }

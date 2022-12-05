@@ -1,0 +1,15 @@
+/* TEAM */
+	Creator:Cristhian Diaz
+	Contact: dimit3127 [at] hotmail.com
+	Twiter: No hay
+	from: La Paz, Bolivia
+
+/* THANKS */
+	Ivan, Gladys, Paola
+
+/* SITE */
+	Last update: 
+	Language: Español
+	Standars: HTML5, CSS3, JavaScript
+	Components: JQuery
+	Software: SublimeText2, Adobe suite CS6 (Flash, Photoshop, Fireworks)
