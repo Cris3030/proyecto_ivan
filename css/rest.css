@@ -1,6 +1,7 @@
+
 section#contenedor-rest {
 	background: #ffffff;
-	height: 1315px;
+	height: 100vh;
 	max-width: 100%;
 	overflow: hidden;
 	position: static;
@@ -10,18 +11,16 @@ section#content {
 	background-color: #cafada;
 	border: #caca21 solid 5px;
 	border-radius: 2%;
-	margin: 0px auto;
+	height: 47vh;
+	margin: auto;
 	margin-left: 7.5%;
 	margin-top: 1%;
-	max-height: 25%;
 	max-width: 88%;
-
 }
 
 #infocar1 {
 	background-color: #cafada;
 	border: #123456 solid 1%;
-	height: 20%;
 	margin-top: 0px auto;
 	padding: .5%;
 	width: 40%;
