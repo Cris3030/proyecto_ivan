@@ -1,7 +1,8 @@
+
+
 section#contenedor-reser {
-	background: #ffffff;
-	height: 670px;
+	display: block;
+	background: #faca99;
+	height: 145vh;
 	max-width: 100%;
-	overflow: hidden;
-	position: static;
 }
