@@ -20,20 +20,12 @@ REGLAS PARA TRABAJAR CON CSS
 9.- Si tenemos estilos para resetear elementos html, estos iran antes de cualquier estilo.
 
 */
-* {
-	border: 0;
-	box-sizing: border-box;
-	font-family: 'Exo 2', sans-serif;
-	margin: 0;
-	padding: 0;
-}
 
 article,figcaption,figure,footer,header,hgroup,nav,section, aside {
 	display: block;
 }
 
 /* estilos del sitio */
-
 
 
 /* 16px = 12pt = 100% = 1em */
@@ -107,7 +99,7 @@ section#map {
 
 section#secundario {
 	background: #001100; /* color de fondo */
-	/*border-radius: 5em; /* curva de esquinas */
+	border: 1px solid orangered;
 	display: inline-block; /* La propiedad display nos permite definir como será mostrado un cierto elemento HTML */
 	margin: 0px auto;
 	margin-left: 7%; /* margen entre etiquetas */
@@ -119,6 +111,7 @@ section#secundario {
 
 div#mapa {
 	background: #cacad0;
+	border: 1.5px solid orangered;
 	float: right;
 	height: 25em;
 	margin-right: 10%;
@@ -129,6 +122,7 @@ div#mapa {
 
 article#contmap {
 	background: #111111;
+	border: 1px solid blueviolet;
 	height: 50vh;
 	padding: 2%;
 	margin: 1.5%;
@@ -182,8 +176,9 @@ footer {
 }*/
 
 .infohab1 {
+	background: #fefefe;
+	border: 1px solid orangered;
 	display: block;
-	background: #8B4513;
 	height: 60vh;
 	margin: 0.5%;
 	max-width: 99%;
@@ -191,7 +186,8 @@ footer {
 }
 
 .infohab2 {
-	background: #8B4513;
+	background: #fefefe;
+	border: 1px solid orangered;
 	height: 60vh;
 	margin: 0.5%;
 	max-width: 99%;
@@ -199,7 +195,8 @@ footer {
 }
 
 .infohab3 {
-	background: #8B4513;
+	background: #fefefe;
+	border: 1px solid orangered;
 	height: 60vh;
 	margin: 0.5%;
 	max-width: 99%;
@@ -207,7 +204,8 @@ footer {
 }
 
 .infohab4 {
-	background: #8B4513;
+	background: #fefefe;
+	border: 1px solid orangered;
 	height: 60vh;
 	margin: 0.5%;
 	max-width: 99%;
@@ -217,10 +215,11 @@ footer {
 
 .secundario1 {
 	background: #ffffff; /* color de fondo */
+	border: 2px solid lightblue; /* borde de la seccion */
 	margin-left: 6%; /* margen entre etiquetas */
 	max-width: 45%; /* maximo tamaño para las pantallas */
 	text-align: center;
-	padding: 0.1em; /* espacio entre el contenido del elemento y su borde */
+/*	padding: 0.1em; /* espacio entre el contenido del elemento y su borde */*/
 	vertical-align: top;
 }
 
@@ -228,7 +227,7 @@ footer {
 	max-height: 50%;
 	max-width: 100%;
 	min-height: 50%;
-	min-width: 90%;
+	min-width: 100%;
 }
 
 .secundario2 img {
@@ -254,16 +253,20 @@ footer {
 
 .info1 {
 	background: #DEB887;
+	border: 	1px solid darkorange;
 	float: right;
-	margin-right: 14%;
+	margin: 3px;
+	margin-right: 13.5%;
 	max-width: 35%;
 	padding: 2%;
 	position: static;
 }
 
 .info2 {
-	background: #F0FFFF;
-	margin-left: 14%;
+	background: #DEB887;
+	border: 	1px solid darkorange;
+	margin: 3px;
+	margin-left: 13.5%;
 	max-width: 35%;
 	padding: 2%;
 	position: static;
@@ -271,16 +274,20 @@ footer {
 
 .info3 {
 	background: #DEB887;
+	border: 	1px solid darkorange;
 	float: right;
-	margin-right: 14%;
+	margin: 3px;
+	margin-right: 13.5%;
 	max-width: 35%;
 	padding: 2%;
 	position: static;
 }
 
 .info4 {
-	background: #F0FFFF;
-	margin-left: 14%;
+	background: #DEB887;
+	border: 	1px solid darkorange;
+	margin: 3px;
+	margin-left: 13.5%;
 	max-width: 35%;
 	padding: 2%;
 	position: static;
@@ -288,6 +295,7 @@ footer {
 
 .secundario2 {
 	background: #ffffff;
+	border: 2px solid lightblue;
 	float: right;
 	margin-right: 6%;
 	max-width: 45%;
@@ -297,6 +305,7 @@ footer {
 
 .secundario3 {
 	background: #ffffff; /* color de fondo */
+	border: 2px solid lightblue;
 	margin-left: 6%; /* margen entre etiquetas */
 	max-width: 45%; /* maximo tamaño para las pantallas */
 	text-align: center;
@@ -305,6 +314,7 @@ footer {
 
 .secundario4 {
 	background: #ffffff;
+	border: 2px solid lightblue;
 	float: right;
 	margin-right: 6%;
 	max-width: 45%;
@@ -326,7 +336,7 @@ footer {
 }
 
 .precionoche {
-	background: #c0c0c0;
+	background: #DEB887;
 	color: #000000;
 	margin-left: 15%;
 	margin-right: 10%;
