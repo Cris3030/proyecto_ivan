@@ -33,6 +33,7 @@
 	padding: 0;
 	padding-bottom: 30px;
 	text-align: center;
+	text-shadow: 5px 5px 0px purple;
 }
 
 .banner-content a {
