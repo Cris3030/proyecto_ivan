@@ -420,6 +420,7 @@ footer {
 		min-width: 90%;
 	}
 	div#mapa {
+		margin-left: 40px;
 		max-width: 100%;
 	}
 	.infohab1 {
