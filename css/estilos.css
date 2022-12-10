@@ -416,8 +416,8 @@ footer {
 	}
 	article#contmap {
 		display: block;
-		max-height: 60vh;
-		min-height: 60vh;
+		max-height: 80vh;
+		min-height: 80vh;
 		max-width: 90%;
 		min-width: 90%;
 	}
