@@ -90,12 +90,12 @@ div.detail a:hover {
 	color: #c8994d;
 }
 
-section#map {
+/*section#map {
 	background: #212121;
 	max-height: 55vh;
 	min-height: 55vh;
 	width: 100%;
-}
+}*/
 
 section#secundario {
 	background: #001100; /* color de fondo */
@@ -403,11 +403,11 @@ footer {
 		display: block;
 		height: 205vh;
 	}
-	section#map {
+	/*section#map {
 		max-height: 60vh;
 		min-height: 60vh;
 		width: 100%;
-	}
+	}*/
 	section#secundario {
 		max-height: 30vh;
 		min-height: 30vh;
