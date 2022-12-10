@@ -425,23 +425,23 @@ footer {
 	}
 	.infohab1 {
 		display: block;
-		max-height: 50vh;
-		min-height: 50vh;
+		max-height: 55vh;
+		min-height: 55vh;
 	}
 	.infohab2 {
 		display: block;
-		max-height: 45vh;
-		min-height: 45vh;
-	}
-	.infohab3 {
-		display: block;
 		max-height: 50vh;
 		min-height: 50vh;
 	}
+	.infohab3 {
+		display: block;
+		max-height: 55vh;
+		min-height: 55vh;
+	}
 	.infohab4 {
 		display: block;
-		max-height: 45vh;
-		min-height: 45vh;
+		max-height: 50vh;
+		min-height: 50vh;
 	}
 	.info1 {
 		float: none;
