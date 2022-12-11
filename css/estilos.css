@@ -409,8 +409,8 @@ footer {
 		width: 100%;
 	}*/
 	section#secundario {
-		max-height: 30vh;
-		min-height: 30vh;
+		max-height: 33vh;
+		min-height: 33vh;
 		max-width: 90%;
 		min-width: 90%;
 	}
