@@ -109,13 +109,14 @@ section#content {
 		height: 185vh;
 	}
 	section#content {
-		max-height: 90vh;
-		min-height: 90vh;
+		max-height: 85vh;
+		min-height: 85vh;
 	}
 	#inforest1 {
 		width: 100%;
 	}
 	#infocar1 {
+		margin-top: 5px;
 		width: 100%;
 	}
 	#inforest2 {
