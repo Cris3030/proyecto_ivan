@@ -6,10 +6,10 @@ html {
 	font-size: 62.5%;
 }
 
-section.calendar {
+section#calendar {
 	background: #fa88ca;
 	margin: 5em;
-	margin-left: 45em;
+	margin-left: 5em;
 }
 
 .container1 {
