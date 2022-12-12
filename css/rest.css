@@ -103,3 +103,25 @@ section#content {
 	margin-top: 1.3em;
 	width: 50%;
 }
+
+@media screen and (max-width: 600px) {
+	section#contenedor-rest {
+		height: 185vh;
+	}
+	section#content {
+		max-height: 90vh;
+		min-height: 90vh;
+	}
+	#inforest1 {
+		width: 100%;
+	}
+	#infocar1 {
+		width: 100%;
+	}
+	#inforest2 {
+		width: 100%;
+	}
+	#infocar2 {
+		width: 100%;
+	}
+}
