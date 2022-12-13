@@ -6,15 +6,19 @@ html {
 	font-size: 62.5%;
 }
 
-section#calendar {
+section#calendar {  /*seccion rosa*/
+	align-items: center;
 	background: #fa88ca;
+	height: 85vh;
 	margin: 5em;
-	margin-left: 5em;
+	margin-left: 45em;
+	margin-top: 20px;
+	width: 34%;
 }
 
-.container1 {
+.container1 {  /*seccion blanca*/
 	align-items: center;
-	background-color: #12121f;
+	background-color: #ffffff;
 	color: #eee;
 	display: flex;
 	justify-content: center;
@@ -25,8 +29,8 @@ section#calendar {
 .calendar {
 	background-color: #222227;
 	box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
-	height: 50rem;
-	width: 45rem;
+	height: 70vh;
+	width: 100%;
 }
 
 .month {
@@ -111,19 +115,22 @@ section#calendar {
 }
 
 @media screen and (max-width: 600px) {
-	section.calendar {
-	margin: 5em;
-	margin-left: 5em;
+	section#calendar {
+		height: 95vh;
+		margin: 0;
+		margin-left: 10px;
+		margin-top: 40px;
+		width: 95%;
 	}
 
 .container1 {
 	align-items: center;
-	height: 80vh;
+	height: 90vh;
 	width: 100%;
 	}
 
 .calendar {
-	height: 50rem;
-	width: 45rem;
+	height: 85vh;
+	width: 100%;
 	}
 }

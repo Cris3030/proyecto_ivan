@@ -3,6 +3,15 @@
 section#contenedor-reser {
 	display: block;
 	background: #faca99;
-	height: 150vh;
+	height: 90vh;
 	max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	section#contenedor-reser {
+		display: block;
+		background: #faca99;
+		height: 100vh;
+		max-width: 100%;
+	}
 }
