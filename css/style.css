@@ -121,18 +121,24 @@ section#calendar {  /*seccion rosa*/
 		margin-top: 30px;
 		width: 98%;
 	}
-
-.container1 {
-	align-items: center;
-	height: 90vh;
-	width: 100%;
+	.container1 {
+		align-items: center;
+		height: 90vh;
+		width: 100%;
 	}
-
-.calendar {
-	height: 85vh;
-	width: 100%;
+	.calendar {
+		height: 85vh;
+		width: 100%;
 	}
 	.weekdays div {
-	width: calc(35.2rem/7);
+		font-size: 1.5rem;
+		font-weight: 400;
+		letter-spacing: 0.1rem;
+		width: calc(44.2rem/7);
+	}
+	.days div {
+		font-size: 1.4rem;
+		margin: 0.3rem;
+		width: calc(40.2rem/7);
 	}
 }
