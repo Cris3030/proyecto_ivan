@@ -119,7 +119,7 @@ section#calendar {  /*seccion rosa*/
 		height: 95vh;
 		margin: 10px;
 		margin-top: 30px;
-		width: 100%;
+		width: 98%;
 	}
 
 .container1 {
@@ -133,6 +133,6 @@ section#calendar {  /*seccion rosa*/
 	width: 100%;
 	}
 	.weekdays div {
-	width: calc(43.2rem/7);
+	width: calc(40.2rem/7);
 	}
 }
