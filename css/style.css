@@ -139,6 +139,6 @@ section#calendar {  /*seccion rosa*/
 	.days div {
 		font-size: 1.4rem;
 		margin: 0.3rem;
-		width: calc(35.8rem/7);
+		width: calc(35.5rem/7);
 	}
 }
