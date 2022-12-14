@@ -9,7 +9,7 @@ html {
 section#calendar {  /*seccion rosa*/
 	align-items: center;
 	background: #fa88ca;
-	height: 85vh;
+	height: 76vh;
 	margin: 5em;
 	margin-left: 45em;
 	margin-top: 20px;
@@ -22,7 +22,7 @@ section#calendar {  /*seccion rosa*/
 	color: #eee;
 	display: flex;
 	justify-content: center;
-	height: 80vh;
+	height: 74vh;
 	width: 100%;
 }
 
