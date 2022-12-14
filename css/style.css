@@ -116,18 +116,18 @@ section#calendar {  /*seccion rosa*/
 
 @media screen and (max-width: 600px) {
 	section#calendar {
-		height: 95vh;
+		height: 75vh;
 		margin: 5px;
 		margin-top: 30px;
 		width: 98%;
 	}
 	.container1 {
 		align-items: center;
-		height: 90vh;
+		height: 70vh;
 		width: 100%;
 	}
 	.calendar {
-		height: 85vh;
+		height: 65vh;
 		width: 100%;
 	}
 	.weekdays div {
