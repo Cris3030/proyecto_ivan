@@ -8,7 +8,7 @@ html {
 
 section#calendar {  /*seccion rosa*/
 	align-items: center;
-	background: #fa88ca;
+	background: #faca99;
 	height: 76vh;
 	margin: 5em;
 	margin-left: 45em;
@@ -18,7 +18,7 @@ section#calendar {  /*seccion rosa*/
 
 .container1 {  /*seccion blanca*/
 	align-items: center;
-	background-color: #ffffff;
+	background-color: #faca99;
 	color: #eee;
 	display: flex;
 	justify-content: center;
