@@ -113,17 +113,21 @@ section#content {
 		min-height: 85vh;
 	}
 	#inforest1 {
+		border: 1px solid orangered;
 		width: 100%;
 	}
 	#infocar1 {
+		border: 1px solid orangered;
 		margin-top: 25px;
 		width: 100%;
 	}
 	#inforest2 {
+		border: 1px solid orangered;
 		margin-top: 25px;
 		width: 100%;
 	}
 	#infocar2 {
+		border: 1px solid orangered;
 		width: 100%;
 	}
 	.mageclass4 {
