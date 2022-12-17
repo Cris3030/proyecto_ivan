@@ -7,7 +7,13 @@ section#principal-hab {
 
 section#contenedor-hab {
 	background: #000000;
-	max-height: 162vh;
+	max-height: 200vh;
 	max-width: 100%;
-	min-height: 162vh;
+	min-height: 200vh;
+}
+
+@media screen and (max-width: 700px) {
+	section#contenedor-hab {
+		width: 700px
+	}
 }
