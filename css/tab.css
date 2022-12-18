@@ -121,8 +121,8 @@ h1 {
 	.contenedor {
 		min-height: 90%;
 		max-height: 100%;
-		max-width: 400px;
-		min-width: 400px;
+		max-width: 380px;
+		min-width: 380px;
 	}
 
 	ul.tabs {
