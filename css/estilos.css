@@ -386,52 +386,52 @@ footer {
 	.infohab {
 		align-items: center;
 		display: block;
-		height: 125vw;
+		height: 120vw;
 		width: 95%;
 	}
 	.info1 {
 		float: none;
-		height: 50%;
+		height: 45%;
 		margin-left: 10px;
 		width: 95%;
 	}
 	.secundario1 {
-		height: 50%;
+		height: 45%;
 		margin-left: 5px;
 		max-width: 95%;
 	}
 	.info2 {
 		float: none;
-		height: 50%;
+		height: 45%;
 		margin-left: 10px;
 		width: 95%;
 	}
 	.secundario2 {
 		float: none;
-		height: 50%;
+		height: 45%;
 		margin-left: 5px;
 		width: 95%;
 	}
 	.info3 {
 		float: none;
-		height: 50%;
+		height: 45%;
 		margin-left: 10px;
 		width: 95%;
 	}
 	.secundario3 {
-		height: 50%;
+		height: 45%;
 		margin-left: 5px;
 		max-width: 95%;
 	}
 	.info4 {
 		float: none;
-		height: 50%;
+		height: 45%;
 		margin-left: 10px;
 		width: 95%;
 	}
 	.secundario4 {
 		float: none;
-		height: 50%;
+		height: 45%;
 		margin-left: 5px;
 		width: 95%;
 	}
